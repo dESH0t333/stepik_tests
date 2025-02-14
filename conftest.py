@@ -19,7 +19,7 @@ def browser(request):
     browser.implicitly_wait(5)
     yield browser
     print("\nquit browser..")
-    browser.quit()
+    #browser.quit()
 
 
 
